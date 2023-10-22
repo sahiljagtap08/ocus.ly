@@ -7,15 +7,15 @@ import { getAnalytics } from "firebase/analytics";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyBkuOuGJxSzhctFthtfKLIx-RHXY7pBaCI",
-  authDomain: "ocusly-8fffc.firebaseapp.com",
-  databaseURL: "https://ocusly-8fffc-default-rtdb.firebaseio.com",
-  projectId: "ocusly-8fffc",
-  storageBucket: "ocusly-8fffc.appspot.com",
-  messagingSenderId: "547980514439",
-  appId: "1:547980514439:web:1a0841e9adaea76c829422",
-  measurementId: "G-KWRLP33Q7D"
+  apiKey: "AIzaSyDuEgZB_QGbikIgVVAjty9xnuAwkvywdv0",
+  authDomain: "ocusly.firebaseapp.com",
+  projectId: "ocusly",
+  storageBucket: "ocusly.appspot.com",
+  messagingSenderId: "562179721889",
+  appId: "1:562179721889:web:541b406b0c43bc7e4abee0",
+  measurementId: "G-T1F190ZT9D"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
